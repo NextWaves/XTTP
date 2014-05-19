@@ -1,0 +1,61 @@
+{
+  "name": "xttp",
+  "title": "XTTP",
+  "id": "jid1-OqzggNZ7eBBblA",
+  "description": "Allows access to  BitTorrent Sync Enabled WebSites",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "dependencies": [ "addon-sdk"],
+  "preferences": [
+{
+    "description": "Home Folder For Cached Sites",
+    "name": "btsitesFolder",
+    "type": "directory",
+    "value": "",
+    "title": "Location of you sites folder"
+},
+{
+    "description": "BitTorrent Sync Executable Location",
+    "name": "btSyncEXE",
+    "type": "file",
+    "value": "/Applications/BitTorrent Sync.app/Contents/MacOS/BitTorrent Sync",
+    "title": "BitTorrent Sync Executable"
+},
+{
+    "description": "BitTorrent Sync API Key",
+    "name": "apikey",
+    "type": "string",
+    "value": "",
+    "title": "BitTorrent Sync API Key"
+},
+{
+    "description": "Local BitTorrent Sync WebService",
+    "name": "apiserver",
+    "type": "string",
+    "value": "http://127.0.0.1:8888",
+    "title": "BitTorrent Sync Web Service Address"
+},
+{
+    "description": "The Username of the BitTorrent Sync API Service",
+    "name": "uname",
+    "type": "string",
+    "value": "api",
+    "title": "BitTorrent Sync Username"
+},
+{
+    "description": "The Password of the BitTorrent Sync API Service",
+    "name": "passwd",
+    "type": "string",
+    "value": "test123",
+    "title": "BitTorrent Sync Password"
+},
+{
+    "description": "BTSync Storage Path",
+    "name": "storagepath",
+    "type": "directory",
+    "value": ".SyncAPI",
+    "title": "BTSync Storage Path"
+}]
+
+}
